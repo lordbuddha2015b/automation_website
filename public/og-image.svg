@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFF7CD"/>
+  <circle cx="986" cy="121" r="120" fill="#FAD0D9"/>
+  <circle cx="184" cy="518" r="136" fill="#FDD5CE"/>
+  <rect x="84" y="87" width="1032" height="456" rx="34" fill="white" fill-opacity="0.68"/>
+  <rect x="132" y="145" width="434" height="342" rx="28" fill="#FFF2EA"/>
+  <path d="M282 276C282 218.562 328.562 172 386 172C443.438 172 490 218.562 490 276V394H282V276Z" fill="#F57799"/>
+  <path d="M288 402H484V438C484 492.124 440.124 536 386 536C331.876 536 288 492.124 288 438V402Z" fill="white"/>
+  <circle cx="349" cy="282" r="12" fill="#473A4A"/>
+  <circle cx="423" cy="282" r="12" fill="#473A4A"/>
+  <path d="M353 336C374.333 354 398.667 354 420 336" stroke="#473A4A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M302 190C302 137.533 344.533 95 397 95V95C449.467 95 492 137.533 492 190V242H302V190Z" fill="#473A4A"/>
+  <text x="618" y="238" fill="#1F2937" font-family="Arial, sans-serif" font-size="66" font-weight="800">CareWell Health</text>
+  <text x="618" y="318" fill="#4B5563" font-family="Arial, sans-serif" font-size="34" font-weight="600">Compassionate care that helps people</text>
+  <text x="618" y="364" fill="#4B5563" font-family="Arial, sans-serif" font-size="34" font-weight="600">feel safer, steadier, and supported.</text>
+  <rect x="620" y="417" width="240" height="66" rx="33" fill="#F57799"/>
+  <text x="671" y="458" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">Book Now</text>
+</svg>

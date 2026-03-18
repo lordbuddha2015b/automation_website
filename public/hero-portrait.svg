@@ -1,0 +1,15 @@
+<svg width="800" height="960" viewBox="0 0 800 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="960" rx="40" fill="#FFF9E2"/>
+  <circle cx="635" cy="146" r="106" fill="#FDD5CE"/>
+  <circle cx="169" cy="806" r="138" fill="#FAD2DE"/>
+  <path d="M407 231C515.8 231 604 319.2 604 428V629C604 737.8 515.8 826 407 826C298.2 826 210 737.8 210 629V428C210 319.2 298.2 231 407 231Z" fill="#FFF3ED"/>
+  <path d="M305 406C305 349.667 350.667 304 407 304C463.333 304 509 349.667 509 406V493H305V406Z" fill="#EE8DA1"/>
+  <path d="M306 497H508V625C508 681.333 462.333 727 406 727C349.667 727 304 681.333 304 625V499C304 497.895 304.895 497 306 497Z" fill="#FFF"/>
+  <path d="M317 239C317 183.772 361.772 139 417 139C472.228 139 517 183.772 517 239V311H317V239Z" fill="#473A4A"/>
+  <circle cx="372" cy="381" r="12" fill="#473A4A"/>
+  <circle cx="446" cy="381" r="12" fill="#473A4A"/>
+  <path d="M374 435C395.333 453 419.667 453 441 435" stroke="#473A4A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M278 540C312.4 560.4 353.667 571.5 402 573.5C450.333 575.5 495.667 565.333 538 543" stroke="#F7B0A5" stroke-width="14" stroke-linecap="round"/>
+  <rect x="120" y="117" width="138" height="52" rx="26" fill="white"/>
+  <text x="145" y="151" fill="#A35B68" font-family="Arial, sans-serif" font-size="24" font-weight="700">Safe care</text>
+</svg>
