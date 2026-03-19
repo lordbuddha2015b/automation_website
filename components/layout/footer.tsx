@@ -8,13 +8,15 @@ export function Footer() {
       <div className="container-shell grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="relative flex h-12 w-12 overflow-hidden rounded-2xl bg-[#f4c33f] ring-1 ring-[#efd8b1]">
+            <span className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-transparent ring-1 ring-[#efd8b1]/40">
               <Image
-                src="/CareWell Helth.jpeg"
+                src="/carewell-logo.png"
                 alt="CareWell Health logo"
-                fill
+                width={44}
+                height={44}
                 sizes="48px"
-                className="object-cover"
+                className="h-11 w-11 object-contain"
+                unoptimized
               />
             </span>
             <p className="text-2xl font-extrabold tracking-tight text-slate-900">CareWell Health</p>

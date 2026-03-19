@@ -2,9 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { Caveat } from "next/font/google";
 import { useState } from "react";
 import { ConsultationButton } from "@/components/booking/consultation-button";
 import { contactDetails, navLinks, services } from "@/lib/content";
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  weight: ["700"],
+  display: "swap",
+});
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,19 +22,23 @@ export function Navbar() {
       <div className="container-shell py-4">
         <div className="flex items-center justify-between gap-4">
           <Link href="/" className="flex items-center gap-3">
-            <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-[#f4c33f] shadow-[0_12px_30px_rgba(245,119,153,0.18)] ring-1 ring-white/80">
+            <span className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-transparent shadow-[0_12px_30px_rgba(245,119,153,0.12)] ring-1 ring-white/50">
               <Image
-                src="/CareWell Helth.jpeg"
+                src="/carewell-logo.png"
                 alt="CareWell Health logo"
-                fill
+                width={44}
+                height={44}
                 sizes="48px"
-                className="object-cover"
+                className="h-11 w-11 object-contain"
+                unoptimized
                 priority
               />
             </span>
             <div>
               <p className="text-base font-extrabold tracking-tight">CareWell Health</p>
-              <p className="text-sm text-slate-500">Compassionate psychiatric care</p>
+              <p className={`${caveat.className} -mt-1 text-[1.35rem] leading-none text-sky-600`}>
+                Healing Minds
+              </p>
             </div>
           </Link>
 

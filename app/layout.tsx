@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   description:
     "CareWell Health offers compassionate psychiatry, therapy, and wellness support designed to help you feel calmer, more in control, and genuinely cared for.",
   icons: {
-    icon: "/CareWell Helth.jpeg",
-    shortcut: "/CareWell Helth.jpeg",
-    apple: "/CareWell Helth.jpeg",
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/apple-icon.png",
   },
   openGraph: {
     title: "CareWell Health | Compassionate Psychiatric Care",
